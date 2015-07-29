@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "watch": true,
+        "module": "commonjs",
+        "target": "es5"
+    },
+    "files": [
+        "app.ts",
+        "routes/index.ts",
+        "public/js/app.ts",
+        "public/js/services/SocketService.ts",
+        "public/js/services/MyService.ts",
+        "bin/www.ts",
+        "typings/tsd.d.ts"
+    ]
+}

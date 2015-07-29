@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MyApp</title>
+		<script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+	    <script src="https://jspm.io/system@0.16.js"></script>
+	    <script src="https://code.angularjs.org/2.0.0-alpha.32/angular2.dev.js"></script>
+		<script src="https://cdn.socket.io/socket.io-1.3.6.js"></script>
+	</head>
+	<body>
+		<h1>Welcome to my example Angular2 App</h1>
+		<my-app>Loading...</my-app>
+		<script>
+			System.config({
+				traceurOptions: {
+					annotation: true,
+					memberVariables: true,
+					types: true
+				}
+			});
+			System.import('js/app');
+		</script>
+	</body>
+</html>
