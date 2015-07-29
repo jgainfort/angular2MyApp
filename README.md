@@ -11,3 +11,5 @@
 * tsd install
 * tsc
 * Debug=myApp:* npm start
+
+Navigate Browser to localhost:3000
