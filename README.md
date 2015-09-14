@@ -1,7 +1,7 @@
 # My Example Angular2 App
 
 #Dependencies:
-* NodeJS
+* NodeJS (0.12 and above)
 * Typescript
 * tsc
 * tsd

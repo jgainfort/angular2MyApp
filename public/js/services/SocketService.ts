@@ -1,5 +1,5 @@
 // Import
-let socket = io('http://localhost:3000');
+let socket = io('/');
 
 export class SocketService {
 	socket;
